@@ -16,5 +16,15 @@
             "   base.OnModelCreating(modelBuilder);",
             "}"
         ]
+    },
+    "Constructor overload for DbContext": {
+        "prefix": "ctorDbContextOptions",
+        "body": [
+            "public ${dbcontext:Your DbContext}(DbContextOptions<${dbcontext:Your DbContext}> options)",
+            ": base(options){}",
+            "",
+            "public ${dbcontext:Your DbContext}(){}"
+        ],
+        "description": "constructor to allow alternate provider for testing. Includes a parameterless ctor which you will need if you are using a custom ctor"
     }
  }
