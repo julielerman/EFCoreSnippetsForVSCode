@@ -1,5 +1,5 @@
 # EFCoreSnippetsForVSCode
-CSharp and JSON snippets to make coding in EF Core simpler
+CSharp and JSON snippets for Visual Studio Code to make coding EF Core simpler
 
 Round 1:
 
